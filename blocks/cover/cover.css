@@ -1,0 +1,25 @@
+@import url("./__item/cover__item.css");
+@import url("./__subtitle/cover__subtitle.css");
+@import url("./__title/cover__title.css");
+
+.cover {
+  position: relative;
+  margin: 92px auto 0;
+  display: flex;
+}
+
+.cover:hover .cover__item::before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    margin-top: 64px;
+  }
+}

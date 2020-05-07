@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+  .block_m {
+    max-width: 928px;
+  }
+}

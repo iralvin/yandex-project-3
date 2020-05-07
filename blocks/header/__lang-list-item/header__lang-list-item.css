@@ -1,0 +1,4 @@
+.header__lang-list-item:last-child .header__lang-link{
+	margin-right: 0;
+	text-decoration-line: none;
+}
